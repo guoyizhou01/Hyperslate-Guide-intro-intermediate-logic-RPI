@@ -1,0 +1,37 @@
+Propositional Calculus includes ∧, ∨, ¬, =>, <=>
+
+Code for a∧b: (and a b)
+Code for a∧b∧c: (and a b c)
+
+∧ intro: 
+  Meaning: given a, b, conclude a∧b.
+  Input: at least two nodes, a and b
+  Output: a∧b (from node a and node b)
+  Example: Figure 1.1
+  Note: you can use ∧ intro to conclude a∧b∧c from a, b, and c, but it cannot conclude (a∧b)∧c, in which you need two steps
+
+∧ elim:
+  Meaning: given a∧b, conclude a
+  Input: one node, a∧b
+  Output: a (from node a∧b)
+  Example: Figure 1.2
+  Note: you can use ∧ elim to conclude a from a∧b∧c, but it cannot conclude from (a∧b)∧c, in which you need two steps
+
+
+Code for a∨b: (or a b)
+Code for a∨b∨c: (or a b c)
+
+∨ intro: 
+  Meaning: given a, conclude a∨b.
+  Input: one node, a
+  Output: a∨b (from node a)
+  Example: Figure 1.3
+  Note: you can use ∨ intro to conclude a∨b∨c from a, but it cannot conclude (a∨b)∨c, in which you need two steps
+
+Note: ∨ elim is somehow complicated
+∨ elim:
+  Meaning: given c (from a), c (from b), and a∨b conclude c
+  Input: at least three nodes, c (from a), c (from b), a∨b
+  Output: c (from node a∨b)
+  Example: Figure 1.4
+
