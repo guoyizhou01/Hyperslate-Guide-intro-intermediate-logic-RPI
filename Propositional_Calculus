@@ -2,6 +2,7 @@ Propositional Calculus includes ∧, ∨, ¬, =>, <=>
 
 Code for a∧b: (and a b)
 Code for a∧b∧c: (and a b c)
+Code for (a∧b)∧c: (and (and a b) c)
 
 ∧ intro: 
   Meaning: given a, b, conclude a∧b.
@@ -20,6 +21,7 @@ Code for a∧b∧c: (and a b c)
 
 Code for a∨b: (or a b)
 Code for a∨b∨c: (or a b c)
+Code for (a∨b)∨c: (or (or a b) c)
 
 ∨ intro: 
   Meaning: given a, conclude a∨b.
