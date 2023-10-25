@@ -37,3 +37,49 @@ Note: ∨ elim is somehow complicated
   Output: c (from node a∨b)
   Example: Figure 1.4
 
+¬ intro:
+  Meaning: assumption a is wrong, thus ¬a. (For explanation purpose, let's assume b(from a) )
+  Input: Typically two nodes, b(from a) and ¬b. Could be one node, b∧(¬b)
+  Output: ¬a (from ¬b)
+  Example: not yet available
+
+¬ elim:
+  Meaning: assumption ¬a is wrong, thus a. (for explanation purpose, let's assume b(from ¬a) )
+  Input: Typically two node,  b(from ¬a) and ¬b. Could be one node, b∧(¬b)
+  Output: a (from ¬b)
+  Example: not yet available
+
+=> intro:
+  Meaning: given b(from a), conclude a=>b. Notice, b must be the node directly above => intro
+  Input: One node b(from a)
+  Output: a=>b (from nothing)
+  Example: Figure 1.7
+  Note: Typically the structure in Figure 1.7 is used for problems, but the it's not necessary to have a∧b to conclude a=>b (see the bottom => intro in Figure 1.8, please ignore and it is safe to ignore the □ symbol since the example was created in S5 mode) 
+
+=> elim:
+  Meaning: given a=>b and a, conclude b.
+  Input: Two nodes a=>b and a
+  Output: b (from node a=>b and a)
+  Example: not yet available
+
+<=> intro:
+  Meaning: given b(from a) and a(from b), conclude a<=>b.
+  Input: Two nodes, b(from a) and a(from b)
+  Output: a<=>b (from nothing)
+  Example: Figure 1.10 and 1.11
+
+<=> elim:
+  Meaning: given a<=>b and a (or b), conclude b(or a).
+  Input: Two nodes a<=>b and a (or b)
+  Output: b (or a) (from node a<=>b and a (or b) )
+  Example: not yet available
+
+
+
+
+
+
+
+
+
+
