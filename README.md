@@ -1,4 +1,4 @@
-# Hyperslate_Guide
+# Hyperslate Guide
 
 ***** This is not a official guide! *****
 
