@@ -15,7 +15,11 @@ First Order Logic includes ∃, ∀, and Propositional Calculus.
   Note:  By using ∃, you can only conclude F(x) from ∃x: F(x), but not F(y). In other words, the input and output symbol must match. ∃2 is used when they don't match.
 
 ∀ intro:
-  // To be done
+  Meaning: Given F(x) (from GIVEN1, GIVEN2, ...), where GIVEN1, GIVEN2, ... must be in first order, i.e., ∀x:G(x), ∃x:H(x), etc., conclude ∀x: F(x)
+  Input: One node, F(x)
+  Output: ∀x: F(x) (from GIVEN1, GIVEN2, ...)
+  Example: Not yet available
+  Note: By using ∀, you can only conclude ∀x: F(x) from F(x), but not ∀y: F(y). In other words, the input and output symbol must match. ∀2 is used when they don't match.
 
 ∀ elim:
   Meaning: Given ∀x: F(x), conclude F(x)
