@@ -1,0 +1,7 @@
+There are different kind of oracles available in different types of problems. Typically you'll see PC-oracle, FOL-oracle, S5-oracle
+
+PC-oracle means it is provable from the connected nodes using predicate calculus within reasonable of steps only. THis is usually the only oracle you're permitted to use in your proof, if any oracle is permitted.
+
+FOL-oracle means it is provable from the connected nodes using first order logic within reasonable of steps only.
+
+S5-oracle means it is provable from the connected nodes using S5 within reasonable of steps only.
