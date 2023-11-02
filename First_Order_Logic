@@ -1,4 +1,4 @@
-First Order Logic includes ∃, ∀, and Propositional Calculus.
+First Order Logic includes ∃, ∀, and Predicate Calculus.
 
 ∃ intro:
   Meaning: Given F(x), conclude ∃x: F(x)
