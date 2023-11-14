@@ -4,27 +4,23 @@ First Order Logic includes ∃, ∀, and Predicate Calculus.
   Meaning: Given F(x), conclude ∃x: F(x)
   Input: One node, F(x)
   Output: ∃x: F(x) (from F(x) )
-  Example: Not yet available
-  Note: By using ∃, you can only conclude ∃x: F(x) from F(x), but not ∃y: F(y). In other words, the input and output symbol must match. ∃2 is used when they don't match.
-
+  Example: Figure 3.1
+  
 ∃ elim:
   Meaning: Given ∃x: F(x), conclude F(x)
   Input: Two nodes, ∃x: F(x) and F(x)
   Output: F(x)
-  Example: Not yet available
-  Note:  By using ∃, you can only conclude F(x) from ∃x: F(x), but not F(y). In other words, the input and output symbol must match. ∃2 is used when they don't match.
-
+  Example: Figure 3.2
+  
 ∀ intro:
   Meaning: Given F(x) (from GIVEN1, GIVEN2, ...), where at least one of GIVEN1, GIVEN2, ... shou be in first order, i.e., ∀x:G(x), ∃x:H(x), etc., and there is a valid logic to the result node, conclude ∀x: F(x)
   Input: One node, F(x)
   Output: ∀x: F(x) (from GIVEN1, GIVEN2, ...)
-  Example: Not yet available
-  Note: An easy way to check is there is a valid logic to the result node is to use FOL-oracle. By using ∀, you can only conclude ∀x: F(x) from F(x), but not ∀y: F(y). In other words, the input and output symbol must match. ∀2 is used when they don't match.
-
+  Example: Figure 3.3
+  
 ∀ elim:
   Meaning: Given ∀x: F(x), conclude F(x)
   Input: One node, ∀x: F(x)
   Output: F(x)
-  Example: Not yet available
-  Note:  By using ∀, you can only conclude F(x) from ∀x: F(x), but not F(y). In other words, the input and output symbol must match. ∀2 is used when they don't match.
-
+  Example: Figure 3.4
+  
