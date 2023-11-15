@@ -15,7 +15,7 @@ Note: ALL of the higher order logic symbols can cover the usage of the correspon
   Input: Two nodes, ∃x: F(x) and F(x)
   Output: F(x)
   Example: Figure 3.2
-  Note: This actually can be easily abused, and can conclude something that you think it would be. Examples are given in figure 5.1a, 5.1b, and 5.2. Anything can be proven given ∃x: F(x), and you can prove ¬(∃x: F(x)) from nowhere.
+  Note: This actually can be easily abused, and can conclude something that you think it would be wrong. Examples are given in figure 5.1a, 5.1b, and 5.2. Anything can be proven given ∃x: F(x), and you can prove ¬(∃x: F(x)) from nowhere.
   
 ∀2 intro:
   Meaning: Given G(F(x)) (from GIVEN1, GIVEN2, ...), where all of GIVEN1, GIVEN2, ... shou be in first order, i.e., ∀x:G(x), ∃x:H(x), etc., conclude ∀x: G(x)
