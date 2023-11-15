@@ -4,11 +4,11 @@ Predicate Calculus includes = and Propositional Calculus
   Meaning: It is always true that a = a
   Input: None
   Output: a = a (from nothing)
-  Example: Not available yet
+  Example: Figure 2.1
 
 = elim:
   Meaning: Given a = b and F(a), conlcude F(b)
   Input: Two nodes, a = b and F(a)
   Output: F(b) (from node a=b and node F(a) )
-  Example: Not available yet
+  Example: Figure 2.2
   Note: F(a) does not exactly in such form, e.g. it can be a = c, and combined with a = b, it can conclude b = c. 
