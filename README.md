@@ -6,6 +6,4 @@ If you are taking PHIL2140 Intro to Logic or CSCI4968/MATH4140/MATH4961/PHIL4961
 
 # Progress:
 
-Propositional Calculus, Predicate Calculus and First Order Logic parts are mostly completed, more examples to be added.
-
-I just started this project as of Oct.11, 2023, and I plan to complete it by the end of 2023. If there are anything you need to know right away please leave the question in Issues.
+Propositional Calculus, Predicate Calculus, First Order Logic, and Higher Order Logic are completed. Due to S4, S5, and D being very simple in hyperslate, they are not going to be included in the guide.
