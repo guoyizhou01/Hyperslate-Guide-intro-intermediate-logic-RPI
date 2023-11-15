@@ -1,0 +1,36 @@
+Higher Order Logic includes ∃2, ∀2, {}2 and First Order Logic. 
+
+In higher order logic in hyperslate, when you use ∃ or ∀, there is no restriant that you can replace a variable with a variable only, and you can replace a variable with a set, or even a set of set, if you wish to.
+
+Note: ALL of the higher order logic symbols can cover the usage of the corresponding first order logic symbols. It is not recommended for learning purposes though.
+
+∃2 intro:
+  Meaning: Given G(F(x)), conclude ∃x: G(x)
+  Input: One node, G(F(x))
+  Output: ∃x: F(x) (from G(F(x)) )
+  Example: Figure 3.1
+  
+∃2 elim:
+  Meaning: Given ∃x: F(x) and F(x), conclude F(x)
+  Input: Two nodes, ∃x: F(x) and F(x)
+  Output: F(x)
+  Example: Figure 3.2
+  Note: This actually can be easily abused, and can conclude something that you think it would be. Examples are given in figure 5.1a, 5.1b, and 5.2. Anything can be proven given ∃x: F(x), and you can prove ¬(∃x: F(x)) from nowhere.
+  
+∀2 intro:
+  Meaning: Given G(F(x)) (from GIVEN1, GIVEN2, ...), where all of GIVEN1, GIVEN2, ... shou be in first order, i.e., ∀x:G(x), ∃x:H(x), etc., conclude ∀x: G(x)
+  Input: One node, G(F(x))
+  Output: ∀x: G(x) (from GIVEN1, GIVEN2, ...)
+  Example: Figure 3.3
+  
+∀2 elim:
+  Meaning: Given ∀x: G(x), conclude G(F(x))
+  Input: One node, ∀x: G(x)
+  Output: G(F(x))
+  Example: Figure 3.4
+
+{}2:
+  Meaning: It is always true that ∃x: F(x)<=>F(x)
+  Input: None
+  Output: ∃x: F(x)<=>F(x)
+  Example: Figure 3.5
