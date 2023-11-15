@@ -41,13 +41,13 @@ Note: ∨ elim is somehow complicated
   Meaning: assumption a is wrong, thus ¬a. (For explanation purpose, let's assume b(from a) )
   Input: Typically two nodes, b(from a) and ¬b. Could be one node, b∧(¬b)
   Output: ¬a (from ¬b)
-  Example: not yet available
+  Example: Figure 1.13
 
 ¬ elim:
   Meaning: assumption ¬a is wrong, thus a. (for explanation purpose, let's assume b(from ¬a) )
   Input: Typically two node,  b(from ¬a) and ¬b. Could be one node, b∧(¬b)
   Output: a (from ¬b)
-  Example: not yet available
+  Example: Figure 1.12
 
 => intro:
   Meaning: given b(from a), conclude a=>b. Notice, b must be the node directly above => intro
@@ -60,7 +60,7 @@ Note: ∨ elim is somehow complicated
   Meaning: given a=>b and a, conclude b.
   Input: Two nodes a=>b and a
   Output: b (from node a=>b and a)
-  Example: not yet available
+  Example: Figure 1.15
 
 <=> intro:
   Meaning: given b(from a) and a(from b), conclude a<=>b.
@@ -72,8 +72,7 @@ Note: ∨ elim is somehow complicated
   Meaning: given a<=>b and a (or b), conclude b(or a).
   Input: Two nodes a<=>b and a (or b)
   Output: b (or a) (from node a<=>b and a (or b) )
-  Example: not yet available
-
+  Example: Figure 1.14
 
 
 
